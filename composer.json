@@ -1,0 +1,18 @@
+{
+    "name": "edzl/stripe-php-app",
+    "autoload": {
+        "psr-4": {
+            "Edzl\\StripePhpApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cookierilla-auf",
+            "email": "escoto.edzlrenzo@student.auf.edu.ph"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
